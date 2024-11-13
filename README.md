@@ -1,11 +1,12 @@
 # SD_Multithreading
 
 ##### Integrantes:
-Yavé Emmanuel Vargas Márquez 
-Martha Dalila Cardona Serna
-José Refugio Salinas Uribe
-José Ángel Montoya Zúñiga 
-Rodrigo Olmos Gómez 
+1. Giovanna Inosuli Campos Flores
+2. Yavé Emmanuel Vargas Márquez
+3. Martha Dalila Cardona Serna
+4. José Refugio Salinas Uribe
+5. José Ángel Montoya Zúñiga 
+6. Rodrigo Olmos Gómez 
  
 ### Descripción
 Este proyecto es una simulación de un restaurante utilizando multithreading en Python. El objetivo es demostrar el uso de hilos concurrentes para manejar múltiples mesas y camareros que procesan y preparan pedidos al mismo tiempo.
