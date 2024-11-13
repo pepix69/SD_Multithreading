@@ -12,19 +12,19 @@ Este proyecto es una simulación de un restaurante utilizando multithreading en 
 
 
 ### Funcionamiento 
-Mesas:
+#### Mesas:
 
 Cada mesa es un hilo que representa un cliente realizando un pedido al azar del menú disponible.
 
 
-Camareros:
+#### Camareros:
 
 Los camareros son hilos que atienden y preparan los pedidos.
 Usan un mecanismo de condición (Condition) para esperar y detectar cuando hay un nuevo pedido pendiente.
 Una vez que un pedido es tomado, el camarero simula la preparación del pedido utilizando time.sleep() y, después de completarlo, entrega el pedido a la mesa correspondiente.
 
 
-Sincronización:
+#### Sincronización:
 
 El programa utiliza threading.Condition para sincronizar los pedidos entre mesas y camareros, evitando condiciones de carrera y garantizando la correcta entrega de pedidos.
 
